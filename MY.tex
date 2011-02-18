@@ -1,7 +1,5 @@
-%        File: MY.tex
-%     Created: Don Feb 10 01:00  2011 C
-% Last Change: Don Feb 10 01:00  2011 C
-%
+%Dieses Werk ist unter einem Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported Lizenzvertrag lizenziert. Um die Lizenz anzusehen, gehen Sie bitte zu http://creativecommons.org/licenses/by-nc-sa/3.0/ oder schicken Sie einen Brief an Creative Commons, 171 Second Street, Suite 300, San Francisco, California 94105, USA.
+
 \documentclass[a4paper]{article}
 
 \usepackage{ngerman}
@@ -9,62 +7,103 @@
 \usepackage[]{graphicx}
 \usepackage[]{amsmath}
 
+\newcommand{\gpm}{\frac{g}{Mol}}
+
 \begin{document}
+\author{Michael Pusterhofer}
+\title{Chemieausarbeitung}
+\maketitle
+\newpage
 \section{Limitierende Reaktanten - Stöchimetrie}
 \subsection{}
+Schreiben Sie für alle Atome die Oxidationszahlen an.
 \begin{align}
   Fe_2O_3 + 3 CO &\rightarrow 2Fe + 3CO_2\\
-  Fe_2^{+3}O_3^{-2} + 3 C^{+2}O^{-2} &\rightarrow 2Fe + 3C^{+4}O_2^{-2}\\
-  M_{Fe_2O_3}=2*56+3*16=160\\
-  M_{Fe}=56\\
-  \frac{160}{2*56}=\frac{150}{x} \Rightarrow x=\frac{150 * 2 * 56}{160}=105g\\
-  y=\frac{87.9}{105}=84\%
+  Fe_2^{+3}O_3^{-2} + 3 C^{+2}O^{-2} &\rightarrow 2Fe + 3C^{+4}O_2^{-2}
+\end{align}
+Wenn Sie mit 150 g Fe2O3 limitierendem Reaktanten
+beginnen, wie groß ist die theoretische ausbeute an Fe?
+\begin{align}
+  M_{Fe_2O_3}=2*56+3*16=160 \gpm \quad M_{Fe}=56\gpm \\
+  \frac{160}{2*56}=\frac{150}{m_{Fe}} \rightarrow m_{Fe}=\frac{150 * 2 * 56}{160}=105g
+\end{align}
+Wie groß wäre die prozentuale Ausbeute, wenn Ihre
+tatsächliche Ausbeute an Fe 87.9 g wäre?
+\begin{align}
+  \frac{87.9}{105}=84\%
 \end{align}
 
 \subsection{}
+Wie viel Mol HF werden benötigt, um mit 0.300 mol Na2SiO3 zu reagieren?
 \begin{align}
   Na_2SiO_3 + 8 HF \rightarrow H_2SiF_6 + 2 NaF +3 H_2O\\
-  n_{HF}=0.3*8=2.4 Mol\\
-  M_{HF}=1+19=20 \rightarrow n_{HF}=0.5 Mol\\
-  M{Na_2SiO_3}=2*23+28+3*16=122 \rightarrow n_{Na_2SiO_3}=0.7 Mol\\
-  \text{HF wirkt begrenzend}\\
-  M_{NaF}=23+19=42\\
-  \frac{2*42}{8*20}=\frac{x}{10} \Rightarrow x=5.25g
+  n_{HF}=0.3*8=2.4 Mol
+\end{align}
+Wieviel g NaF werden gebildet, wenn 10 g HF mit 85.4 g Na2SiO3 reagieren?
+\begin{align}
+  M_{Na_2SiO_3}=122\gpm \rightarrow n_{Na_2SiO_3}=0.7 Mol\\
+  M_{HF}=20\gpm \rightarrow n_{HF}=0.5 Mol\\
+  M_{NaF}=42\gpm \\
+  \Rightarrow \text{HF wirkt begrenzend}\\
+  \frac{2*42}{8*20}=\frac{m_{NaF}}{10} \Rightarrow m_{NaF}=5.25g
 \end{align}
 
 \subsection{}
+Bestimmen sie die Oxidationsstufen aller beteiligten Atome.Geben sie die
+ausgeglichene Gleichung dieser Reaktion an.
 \begin{align}
   2 H_2^{+1}C_2^{-1} + 5 0_2 \rightarrow 4 C^{+4}O_2^{-2} + 2 H_2^{+1}O^{-2}\\
-  M_{H_2C_2}=2+2*12=26 \rightarrow n_{H_2C_2}=10/26=0.385 Mol\\
-  M_{O_2}=32 \rightarrow n_{O_2}=10/32=0.3125 Mol\\
-  M_{CO_2}=12+32=44\\
-  M{H_2O}=18\\
-  \text{O2 is wirkt begrenzend}\\
-  n_{O_2}=0\\
-  n_{H_2P_2}=10-(\frac{2}{5}0.3125)*26=6.76g\\
-  n_{CO_2}=\frac{4}{5}*0.3125*44=11g\\
-  n_{H_2O}=\frac{2}{5}*0.3125*18=2.25g
+\end{align}
+Welcher Reaktant begrenzt die Reaktion?
+\begin{align}
+  M_{H_2C_2}=2+2*12=26\gpm \rightarrow n_{H_2C_2}=10/26=0.385 Mol\\
+  M_{O_2}=32\gpm \rightarrow n_{O_2}=10/32=0.3125 Mol\\
+  \Rightarrow\text{O2 is wirkt begrenzend}\\
+\end{align}
+Wie viel Gramm jedes
+Reaktionspartners sind nach der Reaktion vorhanden?
+\begin{align}
+  M_{CO_2}=12+32=44\gpm\\
+  M_{H_2O}=18\gpm\\
+  m_{O_2}=0g\\
+  m_{H_2P_2}=10-(\frac{2}{5}0.3125)*26=6.76g\\
+  m_{CO_2}=\frac{4}{5}*0.3125*44=11g\\
+  m_{H_2O}=\frac{2}{5}*0.3125*18=2.25g
 \end{align}
 
 \subsection{}
+Wie lauten die Namen von K3PO4 und AgNO3?
 \begin{align}
   K_3PO_4 \dots \text{Kaliumnposphat}\\
-  AgNO_3 \dots \text{Silbernitrat}\\
+  AgNO_3 \dots \text{Silbernitrat}
+\end{align}
+Geben sie die Gleichung für diese Reaktion an.
+\begin{align}
   K_3^{+1}P^{+5}O_4^{-2} + 3 Ag^{+1}N^{+5}O_3^{-2} \rightarrow Ag_3^{+1}PO_4^{-3} + 3 K^{+1}NO_3^{-1}\\
-  M_{K_3PO_4}=3*39+31+4*16=212 \rightarrow n_{K_3PO_4}=\frac{70.5*10^-3}{212}=0.33 10^{-3}Mol\\
-  M_{AgNO_3}=108+14+3*16=170 \rightarrow n_{AgNO_3}=0.4*15*10^{-3}=6*10^{-3}Mol\\
-  \text{K3PO4 ist begrenzend}\\
-  m_{Ag_3PO_4}=6*10^{-3}*(108+31+4*16)=1.218g\\
+\end{align}
+Berechnen Sie die theoretische Ausbeute des gebildeten Niederschlags in Gramm.
+\begin{align}
+  M_{K_3PO_4}=212 \rightarrow n_{K_3PO_4}=\frac{70.5*10^-3}{212}=0.33 10^{-3}Mol\\
+  M_{AgNO_3}=170 \rightarrow n_{AgNO_3}=0.4*15*10^{-3}=6*10^{-3}Mol\\
+  \Rightarrow \text{K3PO4 ist begrenzend}\\
+  m_{Ag_3PO_4}=6*10^{-3}*(108+31+4*16)=1.218g
+\end{align}
+Schreiben Sie den allgemeinen Ausdruck für das Löslichkeitsprodukt des Niederschlags an.
+\begin{align}
   L = [A]^a*[B]^b = [Ag]^3+[PO_4] 
 \end{align}
 
 \subsection{}
+Welche Konzentration hat die Ca(OH)2-Lösung?
 \begin{align}
   Ca^{+2}(OH)_2 + 2 H^{+1}Br^{-1} \rightarrow CaBr_2 + 2 H_2O\\
   n_{HBr}=5*10^{-2}*48.8*10^{-3}= 0.0025Mol\\  
-  n_{Ca(OH)_2}=n_{HBr}*0,5 = 0,00125 Mol\\
+  n_{Ca(OH)_2}=\frac{n_{HBr}}{2} = 0,00125 Mol\\
   [Ca(OH)_2]=\frac{0,00125}{0,1}=0,0123 Mol/L\\
-  \Rightarrow 0,0123*(17*2+40)=0,91 g/L
+\end{align}
+Wie groß ist bei $30^\circ$C die Löslichkeit von Ca(OH)2 in Wasser (Angabe in g Ca(OH)2 pro Liter).
+\begin{align}
+  0,0123*(17*2+40)=0,91 g/L
 \end{align}
 
 \section{Thermochemie}
@@ -210,8 +249,8 @@ kristallin \dots geordnet, dichter, spröder, Quarz
 \subsection{}
 \begin{align}
   m_{C_3H_5(OH)_3}=1.26*50=63g\\
-  n_{C_3H_5(OH)_3}=\frac{63}{3*12+8+3*16}=0,674Mol
-  n_{H_2O}=500/18=27,8
+  n_{C_3H_5(OH)_3}=\frac{63}{3*12+8+3*16}=0,674Mol\\
+  n_{H_2O}=500/18=27,8\\
   p=23,8*\frac{27,8}{27,8+0,674}= 23,24 torr
 \end{align}
 
@@ -325,6 +364,67 @@ Endotherm da mit Steigernder Temperatur K steigt(links nach rechts)
 
 \section{Säure-Base Gleichgewichte}
 
+\subsection{}
+\begin{align}
+  pH = - Log [H^+] \rightarrow [H^+]=0,00055Mol/L\\
+  M_{C_6O_2NH_5}=6*12+2*16+14+5=123g/mol\\
+  \text{einbasig} \rightarrow \text{disssoziertes Nicatin}=\frac{0,25*123*0,00055}{0,62}=2,73\%\\
+  K_s = \frac{[H^+][C_6O_2NH_4]}{[C_60_2NH_5]}=0,00055*0,0273=1,5 10^-5
+\end{align}
+
+\subsection{}
+\begin{align}
+  HF \rightarrow F^- + H^+\\
+  K_s = \frac{x^2}{C_0 - x}\\
+  \rightarrow x_{0.1} = 0,0079Mol/L \quad x_{0.01}=0,0023Mol/L\\
+  P_{0.1}=\frac{0,0079}{0,1}=7,9\% \quad P_{0.01}=\frac{0,0023}{0,01}=23\%
+\end{align}
+
+\subsection{}
+\begin{align}
+  (COOH)_2 + H2O \rightarrow H_3O^+ + C_2O_2O_2H\\
+  K_{s1} = \frac{x^2}{C_1 - x}\\
+  x = C_2= 0,0158 mol/L\\
+  K_{s2}= = \frac{x^2}{C_2 - x}\\
+  x = 0,001 mol/L  \text{\dots Konzentration von $(COO)_2$}\\
+  pH=-Log(0,0158+0,001)=1,77
+\end{align}
+
+\subsection{}
+zweibasig da 2 OH gruppen, welche polar sind
+\begin{align} 
+\end{align}
+
+\subsection{}
+\begin{align}
+  \text{wenn HCl vollstämdig gelöst } \rightarrow [H^+]=0,1 mol/L\\
+  K_s = \frac{(0,1+x)*x}{0,2-x}\\
+  x=0,0013\\
+  pH=-Log(0,1+0,0013)=1\\
+  [F^+]=0,0013 Mol/L
+\end{align}
+
+\subsection{}
+\begin{align}
+  pH = -Log(K_s) + Log(\frac{[0,3]}{[0,3]})=4,75
+\end{align}
+
+\subsection{}
+\begin{align}
+  pH = -Log(6.3*10^-5) + Log(\frac{0,12}{0,20})=3,98
+\end{align}
+
+\subsection{}
+\begin{align}
+  [\text{Säure}]=\frac{0,1*0,025}{0,07}=0,036 Mol/L\\
+  [Base]=\frac{0,1*0,045}{0,07}=0,064 Mol/L\\
+  pH=-Log(1,8*10^{-5})+Log(\frac{0,036}{0,064})=5
+\end{align}
+
+\subsection{}
+
+\subsection{}
+
 \section{Thermodynamik II \& Elektrochemie}
 \subsection{}
 a.) - da gas $\rightarrow$ flüssig
@@ -349,7 +449,7 @@ c.) Beim richtiger Druck/Temperatukombination. Verdampfen/Kondensieren
   MnO4 + Mn + H \rightarrow MnO_2 + H_2O\\
   Mn^{+7}O_4^{-2} + 3e^- +4H^+ \rightarrow Mn^{+4}O_2^{-2} + 2 H_2O\\
   Mn^{+2} -2e^- + 2H_20 \rightarrow MnO_2 + 4 H_4^+
-  2Mn^{+7}O_4^{-2} +8H^+ +3 Mn^{+2} + 6H_20 \rightarrow 2Mn^{+4}O_2^{-2} + 4H_2O + 3MnO_2+12H_4^+\\
+  2Mn^{+7}O_4^{-2} +8H^+ +3 Mn^{+2} + 6H_20 \\\rightarrow 2Mn^{+4}O_2^{-2} + 4H_2O + 3MnO_2+12H_4^+\\
 2Mn^{+7}O_4^{-2} +3 Mn^{+2} + 2H_20 \rightarrow 5Mn^{+4}O_2^{-2} +4 H^+
 \end{align}
 
@@ -362,7 +462,10 @@ Cr_2^{+6}O_7^{-2} +  14H^+ + C^{+2}H_3^+O^{+2}H^+ + H_2O \rightarrow
 Cr_2^{+6}O_7^{-2}  + C^{+2}H_3^+O^{+2}H^+ 8 H^+ \rightarrow
  2 Cr^{+3}+ 6H_2O + C^{+4}O_2^{-2} 
 \end{align}
+\subsection{}
+Anode:$Zn + 2 OH^-  \rightarrow Zn(OH)_2 + 2 e^-$
 
+Kathode:$2Mn^{+4}O_2^{-2} + 2 H_2O  +2 e^- \rightarrow 2 Mn^{+3}O^{-2}(OH)^{-1} + 2 OH^-$
 
 \end{document}
 
